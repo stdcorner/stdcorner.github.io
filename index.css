@@ -512,8 +512,8 @@ h4 {
 	transform: translate(-50%, -50%);
 	position: absolute;
 	margin: 0;
-	font-size: 6vw;
-	font-weight: 900;
+	font-size: 3vw;
+	font-weight: 800;
 	text-transform: uppercase;
 }
 
@@ -1022,4 +1022,10 @@ box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
 -o-transition: all 250ms ease-in-out 0s;
 transition: all 250ms ease-in-out 0s;
 
+}
+
+
+.responsive {
+  max-width: 100%;
+  height: auto;
 }
